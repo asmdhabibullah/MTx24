@@ -31,14 +31,10 @@ export default function Home() {
             </div>
             <div className="pt-8 text-base font-semibold leading-7">
               <p className="text-gray-900">If you are intarested to know the updated situations of this application then please subscribe</p>
-              <p>
-                <div className="pointer-events focus:pointer-events-auto">
-                  <input type="text" placeholder="Subscribe" />
-                </div>
-                <a href="https://www.docs.mtx24.com" className="text-sky-500 hover:text-sky-600">
-                  &rarr;
-                </a>
-              </p>
+              <div className="pointer-events focus:pointer-events-auto">
+                <input type="text" placeholder="Subscribe" />
+              </div>
+              <input type="submit" className="text-sky-500 hover:text-sky-600" /><span>&rarr;</span>
             </div>
           </div>
         </div>
